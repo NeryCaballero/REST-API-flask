@@ -40,6 +40,7 @@ Create an API that contains the information of a collection of Stores.
 
 
 ## Extras:
-- Use render_template() method to render 'index.html' as home.
-- Display an alert with all stores information.
-- Test home endpoint on a browser.
+1. GET: /
+    - Use render_template() method to render 'index.html' as home.
+    - Display an alert with all stores information.
+    - Test home endpoint on a browser.
