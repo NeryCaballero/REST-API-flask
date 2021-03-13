@@ -14,16 +14,17 @@
 	    xmlHttp.send(null);
 	}
 
-	httpGetAsync('http://127.0.0.1:5000/store', function(response) {
+	httpGetAsync('http://127.0.0.1:5000/stores', function(response) {
         alert(response);
     } )
 
 </script>
 </head>
-<body>
+<body style="margin: 0; width: 100vw; font-family: Verdana, sans-serif; color:white;">
 
-<div id="myElement">
-	Hello, world!
+<div id="myElement" style="background-color:mistyrose; padding-right:40px; min-height: 100vh;" >
+	<h1 style="font-size: 8vw; text-align: right; padding:5vh 5vw 5vh 33vw;">Welcome to my imaginary store collection!</h1>
+	<p style="padding-left: 6vw; font-size: 3vw; font-weight:600">Click <a href="http://127.0.0.1:5000/stores" style="text-decoration: none; color: lightpink; font-size: 4vw; font-weight: 900;">here</a> to get all stores information in json.</p>
 </div>
 
 
