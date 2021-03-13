@@ -39,8 +39,7 @@ Create an API that contains the information of a collection of Stores.
     - Handles error if store not found.
 
 
-Extras:
-    - Use render_template() method to render 'index.html' as home.
-    - Display an alert with all stores information.
-    - Test home endpoint on a browser.
-
+## Extras:
+- Use render_template() method to render 'index.html' as home.
+- Display an alert with all stores information.
+- Test home endpoint on a browser.
