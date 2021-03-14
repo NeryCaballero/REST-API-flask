@@ -60,7 +60,7 @@ def get_stores():
 
 
 # GET /stores/<store_name>
-@app.route('/stores/<store_name>')
+@app.route('/stores/<string:name>')
 def get_store(name):
     for store in stores:
         if store['name'] == name:
