@@ -1,6 +1,6 @@
-# REST-API-flask
+# Introduction to REST-API-flask
 
-Simple REST API created on Python using flask.
+**VERY** Simple REST API created on Python using flask.
 Running on localhost port 5000.
 
 ## Objective:
