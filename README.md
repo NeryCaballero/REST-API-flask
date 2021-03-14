@@ -56,6 +56,7 @@ Create an API that contains the information of a collection of Stores.
 
 3. ```request``` is available to every route and contains all the context of a request made to the said route. 
     - [```request.get_json()```](https://www.kite.com/python/docs/flask.request.get_json) : parses the incoming JSON request data and returns it.
+    - IMPORTANT: If the request does not attach a JSON payload: *a body* or the request does not have the proper content-type header, **it will give an error.**
 
 4. [```render_template()```](https://www.kite.com/python/docs/flask.render_template) : Renders a template from the template folder with the given context. 
 
